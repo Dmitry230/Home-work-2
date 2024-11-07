@@ -38,5 +38,10 @@ public class Main {
         frog = frog + 4;
         System.out.println(frog);
 
+        var boxer1 = 78.2;
+        var boxer2 = 82.7;
+        System.out.println(boxer1+boxer2);
+        System.out.println(boxer2%boxer1);
+
     }
 }
