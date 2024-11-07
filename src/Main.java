@@ -48,5 +48,9 @@ public class Main {
         int people = totalHours/hours;
         System.out.println("Всего работников в компании — " + people + " человек");
 
+        var morePeople = people + 94;
+        int hours2 = morePeople * hours;
+        System.out.println("Если в компании работает — " + morePeople + " человек,то всего " + hours2 + " часов работы может быть поделено между сотрудниками");
+
     }
 }
