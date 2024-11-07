@@ -13,5 +13,12 @@ public class Main {
         cat = cat - 1.6;
         paper = paper - 7639;
 
+        var friend1 = 19;
+        System.out.println(friend1);
+        var friend2 = 19+2;
+        System.out.println(friend2);
+        var friend3 = (19+2)/7;
+        System.out.println(friend3);
+
     }
 }
