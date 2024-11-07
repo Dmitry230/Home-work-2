@@ -47,5 +47,6 @@ public class Main {
         var hours = 8;
         int people = totalHours/hours;
         System.out.println("Всего работников в компании — " + people + " человек");
+
     }
 }
