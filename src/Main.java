@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String... args) {
+    public static <inst> void main(String... args) {
         System.out.println("Hello world!");
         var dog = 8.0;
         var cat = 3.6;
@@ -43,5 +43,9 @@ public class Main {
         System.out.println(boxer1+boxer2);
         System.out.println(boxer2%boxer1);
 
+        var totalHours = 640;
+        var hours = 8;
+        int people = totalHours/hours;
+        System.out.println("Всего работников в компании — " + people + " человек");
     }
 }
