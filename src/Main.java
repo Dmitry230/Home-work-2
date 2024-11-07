@@ -51,6 +51,5 @@ public class Main {
         var morePeople = people + 94;
         int hours2 = morePeople * hours;
         System.out.println("Если в компании работает — " + morePeople + " человек,то всего " + hours2 + " часов работы может быть поделено между сотрудниками");
-
     }
 }
