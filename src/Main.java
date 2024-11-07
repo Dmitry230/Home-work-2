@@ -1,5 +1,5 @@
 public class Main {
-    public static <inst> void main(String... args) {
+    public static void main(String... args) {
         System.out.println("Hello world!");
         var dog = 8.0;
         var cat = 3.6;
